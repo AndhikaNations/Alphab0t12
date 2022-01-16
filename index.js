@@ -194,9 +194,9 @@ autoketik = false
 autoregister = setting.user_register
 
 img = setting.img
-baper = 'SUB YT ZEEONE OFC'
+baper = 'ABX STORE Allright Reverse @2k22'
 apiku = 'https://youtu.be/2rWbjrDIAyA'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/HEi4XtHXhbFKkn0qRWN5tM' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -3004,8 +3004,8 @@ case 'bcgif':
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"displayName": 'Owner ABX STORE',
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: ABX STORE;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
